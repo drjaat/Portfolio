@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../img/avatar.png'
+import avatar from '../img/avatar.jpeg'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
@@ -21,16 +21,6 @@ function Navbar() {
               About
             </NavLink>
           </li>
-          {/* <li className="nav-item">
-            <NavLink to="/portfolios" exact activeClassName="active">
-              Portfolios
-            </NavLink>
-          </li>
-           <li className="nav-item">
-            <NavLink to="/blogs" exact activeClassName="active">
-              Blogs
-            </NavLink>
-          </li> */}
           <li className="nav-item">
             <NavLink to="/contact" exact activeClassName="active">
               Contact

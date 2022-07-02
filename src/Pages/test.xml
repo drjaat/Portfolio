@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+	<Ad id="ad">
+		<InLine>
+			<AdSystem>
+				<![CDATA[Ad]]>
+			</AdSystem>
+			<AdTitle>
+				<![CDATA[VPAID]]>
+			</AdTitle>
+			<Creatives>
+				<Creative>
+					<Linear>
+						<Duration>
+							00:05:00
+						</Duration>
+						<AdParameters>
+							<![CDATA[{"video_id":"7WvYHkP7lUM","skipTime":"15","externalSkipTime":"15","embed_url":"https:\/\/www.google.com\/url?sa=D&q=https:\/\/www.youtube.com\/embed\/7WvYHkP7lUM%3Fenablejsapi%3D1%26origin%3D*%26playsinline%3D1","buttonText":{"skipTime":"Skip Ad In {timer}","skipText":"Skip"}}]]>
+						</AdParameters>
+						<MediaFiles>
+							<MediaFile apiFramework="VPAID" type="application/javascript">
+								<![CDATA[https://firebasestorage.googleapis.com/v0/b/mywebsite-e5088.appspot.com/o/vpad.js?alt=media&token=896f3ec8-1600-41fa-a09c-e8ee3a67ad1f]]>
+							</MediaFile>
+						</MediaFiles>
+					</Linear>
+				</Creative>
+			</Creatives>
+		</InLine>
+	</Ad>
+</VAST>

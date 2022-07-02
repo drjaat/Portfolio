@@ -4,7 +4,6 @@ import HomePage from './Pages/HomePage'
 import { Switch, Route } from 'react-router-dom'
 import AboutPage from './Pages/AboutPage'
 import PortfliosPage from './Pages/PortfoliosPage'
-// import BlogsPage from './Pages/BlogsPage'
 import ContactPage from './Pages/ContactPage'
 import { useState } from 'react'
 
@@ -37,9 +36,6 @@ function App() {
             <Route path="/portfolios" exact>
               <PortfliosPage />
             </Route>
-            {/* <Route path="/blogs" exact>
-              <BlogsPage />
-            </Route> */}
             <Route path="/contact" exact>
               <ContactPage />
             </Route>

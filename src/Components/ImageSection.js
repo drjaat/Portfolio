@@ -12,7 +12,7 @@ function ImageSection() {
           I am<span> Dhruv Rana</span>
         </h4>
         <p className="about-text">
-          I'm a Full-Stack Web Developer for Accolite Digital in Gurugram, HR. I
+          I'm a Full-Stack Web Developer works for Browserstack, Mumbai, MH. I
           have serious passion for UI effects, animations and creating
           intuitive, dynamic user experiences.
         </p>
@@ -36,7 +36,7 @@ function ImageSection() {
           className="btn"
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1C-40TJo6Ik5iv3ISbdS_hMr7n8Ei82vz/view?usp=sharing',
+              'https://drive.google.com/file/d/1Gm1xNyDZegLvU3jdUnsTII9-QLQPgCuL/view?usp=sharing',
               '_blank'
             )
           }

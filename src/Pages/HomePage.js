@@ -18,7 +18,8 @@ function HomePage() {
     .typeString('works for Browserstack, Mumbai, MH. \n')
     .pauseFor(100)
     .typeString("I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.")
-    .deleteAll(10)
+    .pauseFor(10000)
+    .deleteAll()
     .start('typed',true);
 
     return () => {
